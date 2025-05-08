@@ -113,6 +113,14 @@ header{
   width: 20px;
   color: rgb(184, 193, 201);
 }
+@media (max-width: 1200px) {
+  body {
+    padding-left: 0; /* plus de navbar = plus besoin de l'espace */
+  }
+  .header {
+    display: none;
+  }
+}
 
 
 
@@ -136,8 +144,6 @@ header{
   object-fit: cover;
   height: 100%;
   width: 100%;
-  overflow-clip-margin: content-box;
-  overflow: hidden;
 }
 .Hero-Overlay{
   position: absolute;
@@ -164,6 +170,290 @@ header{
   font-size: 28px;
   color: white;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.About-Section{
+  min-height: 395px;
+  height: 626px;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0px 60px 0px;
+}
+.About-Title-Container{
+  height: 130px;
+  padding: 0px 12px 60px 12px;
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  justify-content: start;
+  align-items: start;
+  text-align: top;
+}
+.About-Title-Header2{
+  font-size: 35px;
+  font-family: Raleway, sans-serif;
+  height: 35px;
+  margin: 3px 0px 0px 0px;
+}
+.About-Title-Header22{
+  font-size: 35px;
+  font-family: Raleway, sans-serif;
+  height: 35px;
+  margin: 5px 0px 10px 0px;
+}
+.GG{
+  background-color: #1b9cdc;
+  color: #1b9cdc;
+}
+.About-Title-Paragraph{
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  flex: 1;
+}
+
+.About-Contents-Container{
+  flex: 1;
+  display: flex;
+}
+.About-Content-Image{
+  flex: 1;
+  padding: 0px 12px 0px 12px;
+}
+.About-Content-Image img{
+  width: 100%;
+}
+.About-Content-Infos{
+  flex: 2;
+  padding: 0px 12px 0px 12px;
+}
+.About-Content-Infos-Title{
+  height: 28.8px;
+  font-family: Raleway, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.About-Content-Infos-Text{
+  height: 46px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: italic;
+  padding: 16px 0px 16px 0px;
+  margin-bottom: 16px;
+}
+
+.About-Content-Infos-Details{
+  height: 176px;
+  display: flex;
+}
+.About-Content-Infos-Details-Left{
+  flex: 1;
+  padding-right: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.About-Content-Infos-Details-Right{
+  flex: 1;
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.About-Content-Infos-Details-Element{
+  display: flex;
+  margin-bottom: 20px;
+  height: 24px;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.About-Content-Infos-Details-Element svg {
+  color: #1b9cdc;
+  margin-right: 5px;
+}
+.About-Content-Infos-Details-Element strong{
+  margin-right: 10px;
+  font-size: 16px;
+}
+.About-Content-Infos-Details-Element span{
+  font-size: 16px;
+}
+.About-Content-Infos-Text2{
+  height: 66px;
+  padding: 16px 0px 16px 0px;
+  margin-bottom: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+}
+
+
+
+.Stats-Section{
+  height: 277px;
+  padding: 60px 0px 60px 0px;
+  display: flex;
+  box-sizing: border-box;
+}
+.Stats-Section-Container{
+  padding: 0px 12px 0px 12px;
+  flex:1;
+  display: flex;
+}
+.Stats-Section-Container2{
+  padding: 30px 30px 30px 30px;
+  width: 100%;
+  display: flex;
+
+}
+.Stats-Section-Container-Svg{
+  flex: 0.27;
+}
+.Stats-Section-Container-Svg svg{
+  height: 44px;
+  width: 44px;
+  color: #1b9cdc;
+}
+.Stats-Section-Container-infos{
+  flex: 0.73;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  align-items: start;
+  padding-bottom: 20px;
+  position: relative;
+}
+.Stats-Section-Container-infos .GG{
+  margin: 0px 0px 0px 0px;
+  background-color: white;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  height: 38px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.Stats-Section-Container-infos .TT{
+  font-size: 14px;
+  font-family: Raleway, sans-serif;
+  line-height: 21px;
+  flex: 2;
+  margin: 0px 0px 0px 0px;
+  color: gray;
+}
+
+
+
+.Skills-Section{
+  box-sizing: border-box;
+  height: 462.4px;
+  padding: 60px 0px 60px 0px;
+  background-color: rgb(244, 250, 253);
+}
+.Skills-Title-Container{
+  height: 100px;
+  padding: 0px 12px 60px 12px;
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  justify-content: start;
+  align-items: start;
+  text-align: top;
+}
+.Skills-Title-Header2{
+  font-size: 32px;
+  font-family: Raleway, sans-serif;
+  height: 35px;
+  margin: 3px 0px 0px 0px;
+}
+.Skills-Title-Header22{
+  font-size: 32px;
+  font-family: Raleway, sans-serif;
+  height: 35px;
+  margin: 5px 0px 10px 0px;
+}
+.BL{
+  background-color: #1b9cdc;
+  color: #1b9cdc;
+}
+.Skills-Title-Paragraph{
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  flex: 1;
+}
+
+.Skills-Infos-Container{
+  padding: 0px 12px 0px 12px;
+  height: 180px;
+}
+.Skills-Infos-Container2{
+  display: flex;
+  height: 100%;
+}
+.Skills-Infos-Left{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 12px;
+}
+.Skills-Infos-Right{
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+}
+.Skills-Infos-Element{
+  flex: 1;
+}
+.Skills-Infos-Element-Text{
+ display: flex;
+ justify-content: space-between;
+ font-family: Raleway, sans-serif;
+ font-size: 12px;
+ font-weight: 600;
+ margin: 0px 0px 6px 0px;
+ height: 18px;
+ align-items: center;
+}
+.Skills-Infos-Element-Bar{
+  height: 10px;
+  background-color: rgb(235, 235, 235);
+}
+.Skills-Infos-Element-Bar1{
+  height: 10px;
+  background-color: rgb(20, 157, 221);
+  width: 100%;
+}
+.Skills-Infos-Element-Bar2{
+  height: 10px;
+  background-color: rgb(20, 157, 221);
+  width: 90%;
+}
+.Skills-Infos-Element-Bar3{
+  height: 10px;
+  background-color: rgb(20, 157, 221);
+  width: 75%;
+}
+.Skills-Infos-Element-Bar4{
+  height: 10px;
+  background-color: rgb(20, 157, 221);
+  width: 80%;
+}
+.Skills-Infos-Element-Bar5{
+  height: 10px;
+  background-color: rgb(20, 157, 221);
+  width: 90%;
+}
+.Skills-Infos-Element-Bar6{
+  height: 10px;
+  background-color: rgb(20, 157, 221);
+  width: 55%;
 }
 
 
