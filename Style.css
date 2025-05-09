@@ -458,4 +458,246 @@ header{
 
 
 
+.Resume-Section{
+  box-sizing: border-box;
+  height: 1080px;
+  padding: 60px 0px 60px 0px;
+}
+.Resume-Title-Container{
+  height: 12%;
+  padding: 0px 12px 60px 12px;
+  display: flex;
+  flex-direction: column;
+  line-height: 24px;
+  justify-content: start;
+  align-items: start;
+  text-align: top;
+}
+.Resume-Title-Header2{
+  font-size: 35px;
+  font-family: Raleway, sans-serif;
+  height: 35px;
+  margin: 3px 0px 0px 0px;
+}
+.Resume-Title-Header22{
+  font-size: 35px;
+  font-family: Raleway, sans-serif;
+  height: 35px;
+  margin: 5px 0px 10px 0px;
+}
+.RR{
+  background-color: #1b9cdc;
+  color: #1b9cdc;
+}
+.Resume-Title-Paragraph{
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  flex: 1;
+}
+
+.Resume-Section-Contents{
+  display: flex;
+  padding: 0px 12px 0px 12px;
+  height: 88%;
+}
+.Resume-Section-Contents-Left{
+  flex: 1;
+  padding-right: 12px;
+}
+.Resume-Section-Contents-Right{
+  flex: 1;
+  padding-left: 12px;
+}
+.Resume-Section-Contents-Title{
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  margin-block-start: 20px;
+  margin-block-end: 20px;
+  margin-top: 20px;
+  text-align: start;
+  text-size-adjust: 100%;
+}
+
+.Blue-Circle{
+  color: rgb(19, 145, 203);
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  left: -9.5px;
+  border-color: rgb(20, 157, 221);
+  border-width: 0.5px;
+  border-style: solid;
+  border-radius: 100%;
+}
+.Resume-Section-Contents-Container-Title{
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #272829;
+  text-align: start;
+  margin-block-start: 0px;
+  margin-block-end: 10px;
+  margin-inline-start: 0px;
+  scroll-margin-inline-end: 0px;
+  opacity: 0.8;
+}
+
+.Resume-Section-Contents-Container1{
+  height: 218px;
+  border-left-color: rgb(20, 157, 221);
+  border-left-style: solid;
+  border-left-width: 1.6px;
+  position: relative;
+  padding-left: 20px;
+}
+.Resume-Section-Contents-Container1-Paragraph{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+  text-align: start;
+  text-size-adjust: 100%;
+  margin-block-start: 0px;
+  scroll-margin-block-end: 16px;
+  margin-bottom: 16px;
+  margin-top: 0px;
+}
+.Resume-Section-Contents-Container1 ul{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 22px;
+}
+.Resume-Section-Contents-Container1 ul li{
+  margin-bottom: 10px;
+}
+
+.Resume-Section-Contents-Container-period{
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-block-end: 10px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  height: 29.2px;
+  box-sizing: border-box;
+  padding: 5px 0px 5px 15px;
+  width: 130px;
+}
+.Resume-Section-Contents-Container-period-Name{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  height: 24px;
+  margin-block-end: 16px;
+  margin-block-start: 0px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  text-align: start;
+  color: rgb(39, 40, 41);
+  font-style: italic;
+}
+.Resume-Section-Contents-Container-Text{
+  font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin-block-end: 16px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+.Resume-Section-Contents-Container2{
+  height: 215.2px;
+  border-left-color: rgb(20, 157, 221);
+  border-left-style: solid;
+  border-left-width: 1.6px;
+  position: relative;
+  padding-left: 20px;
+  box-sizing: border-box;
+  padding-bottom: 20px;
+}
+.Resume-Section-Contents-Container3{
+  height: 181px;
+  border-left-color: rgb(20, 157, 221);
+  border-left-style: solid;
+  border-left-width: 1.6px;
+  position: relative;
+  padding-left: 20px;
+}
+.Resume-Section-Contents-Container4{
+  height: 375.2px;
+  border-left-color: rgb(20, 157, 221);
+  border-left-style: solid;
+  border-left-width: 1.6px;
+  position: relative;
+  padding-left: 20px;
+}
+.Resume-Section-Contents-Container4 ul{
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 22px;
+  margin-top: 0px;
+}
+.Resume-Section-Contents-Container4 ul li{
+  margin-bottom: 10px;
+  height: 58px;
+}
+
+.Resume-Section-Contents-Container5{
+  height: 315.2px;
+  border-left-color: rgb(20, 157, 221);
+  border-left-style: solid;
+  border-left-width: 1.6px;
+  position: relative;
+  padding-left: 20px;
+}
+.Resume-Section-Contents-Container5 ul{
+  height: 232px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  list-style-type: disc;
+  padding-left: 22px;
+  margin-top: 0px;
+}
+.Resume-Section-Contents-Container5 ul li{
+  margin-bottom: 10px;
+}
+.Resume-Section-Contents-Container-Li1{
+  height: 58px;
+}
+.Resume-Section-Contents-Container-Li1{
+  height: 34px;
+}
+.Resume-Section-Contents-Container-Li1{
+  height: 58px;
+}
+.Resume-Section-Contents-Container-Li1{
+  height: 58px;
+}
+
+
+
+
+
+
 
