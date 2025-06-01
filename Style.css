@@ -1420,6 +1420,10 @@ footer div a {
   color: rgb(20, 157, 221);
 }
 @media (max-width: 1480px){
+  body{
+    height: auto;
+  }
+  
   .Contacts-Section{
     height: auto;
   }
@@ -1453,6 +1457,11 @@ footer div a {
   html {
     font-size: 14px;
   }
+
+  body{
+    height: auto;
+  }
+  
   .Hero-Section{
     height: auto;
   }
@@ -1462,6 +1471,9 @@ footer div a {
 
 @media (max-width: 768px) {
 
+  body{
+    height: auto;
+  }
   .Hero-Name{
     font-size: 3rem;
   }
@@ -1561,6 +1573,10 @@ footer div a {
 }
 
 @media (max-width: 832px) {
+  
+  body{
+    height: auto;
+  }
   .About-Section {
     height: auto;
     padding: 2rem 0;
